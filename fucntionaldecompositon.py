@@ -66,7 +66,7 @@ def verify_otp(sent_otp):
 
 def main():
     email_address = login_id()
-    email_password = "jkzi tlir xiiu apts"
+    email_password = ""
     recipient_email_address = input("Enter your email: ")
     otp_length = 10
     sent_otp = generate_otp(otp_length)
