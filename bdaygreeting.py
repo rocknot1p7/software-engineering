@@ -22,7 +22,7 @@ def whatsapp_msg(name, phone, msg):
 def sendEmail(receiver_email, name, msg):
     # Get sender's details
     sender_email = "prathameshsogale1@gmail.com"
-    sender_password = "jkzi tlir xiiu apts"
+    sender_password = ""
 
     # creating an object of EmailMessage class
     mail = EmailMessage()
