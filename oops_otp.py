@@ -69,7 +69,7 @@ class OTP:
     
 def main():
     email_address = input("Enter your email id: ")
-    email_password = "jkzi tlir xiiu apts"
+    email_password = ""
     recipient_email_address = input("Enter your email: ")
     otp_length = 10
     otp = OTP(otp_length, email_address, email_password)
